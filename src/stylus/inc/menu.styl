@@ -1,0 +1,37 @@
+.main-menu
+  margin-top 26px
+
+  li
+    float left
+    margin 0 2px
+
+  a
+    border border-transparent
+    border-bottom none
+    color color-white
+    display block
+    padding padding-default
+    text-decoration none
+    transition all .3s
+    transition all .3s
+
+    &:hover,&:active,/ .main-menu .active a
+      border-color darken(color-primary, 20%)
+      box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.2) inset
+      color darken(color-primary, 50%)
+      text-shadow 0px 1px 0px rgba(255,255,255,0.4)
+
+.register-menu
+  li
+    float right
+    margin 0 2px
+
+  a
+    color color-white
+    font-size .8em
+    display block
+    transition all .3s
+    transition all .3s
+
+    &:hover,&:active
+      color darken(color-primary, 50%)

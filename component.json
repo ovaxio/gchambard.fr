@@ -1,0 +1,12 @@
+{
+  "name": "gchambard",
+  "description": "frontend of website gchambard.fr",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "ianstormtaylor/reset": "*",
+    "tuxlinuxien/kiwi": "*",
+    "component/dom": "*"
+  }
+}

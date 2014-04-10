@@ -1,0 +1,74 @@
+*
+  box-sizing border-box
+
+html,body
+  background bg-default
+
+.main-header
+  background color-primary
+  padding-top .5em
+  box-shadow 0 2px 1px 0 rgba(0,0,0,0.4)
+  position relative
+
+.main-container
+  margin 0 auto
+  max-width 1020px
+  min-width 320px
+  padding 0 1em
+  width auto
+
+.main-footer
+  text-align center
+  padding 1em 0
+
+.block
+  margin margin-default
+  padding padding-default
+  &.border
+    border border-light
+    box-shadow 0px 4px 2px -3px rgba(0,0,0,0.1)
+
+.img
+  img
+    margin 0 auto
+    border border-default
+
+  legend
+    font-size .8em
+    padding-top 1em
+
+
+  &.section
+    padding 1em 0
+
+  &.section-secondary
+    background color-dark
+    color color-white
+    for row in 1 2 3 4 5 6
+      h{row}
+        text-shadow none
+
+    .img
+      img
+        border border-white
+
+  &.section-rotate
+    margin-left -5%
+    transform rotate(2deg)
+    transform-style preserve-3d
+    width 110%
+    .main-container
+      transform rotate(-2deg)
+      transform-style preserve-3d
+
+  &.section-rotate-top
+    padding-bottom 50px
+    position relative
+
+  &.section-rotate-top + section
+    position relative
+    margin-top -30px
+    background bg-default
+
+.wrapper
+  overflow hidden
