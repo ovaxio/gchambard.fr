@@ -12,13 +12,13 @@
     "gulp-jade": "latest",
     "gulp-component": "latest",
     "component": "latest",
-    "gulp-changed": "^0.3.0",
+    "gulp-changed": "^3.1.0",
     "node-static": "^0.7.3",
-    "gulp-livereload": "^1.2.0",
-    "tiny-lr": "0.0.5",
-    "open": "0.0.4",
-    "gulp-autoprefixer": "0.0.7",
+    "gulp-livereload": "^3.8.1",
+    "tiny-lr": "1.0.5",
+    "open": "0.0.5",
+    "gulp-autoprefixer": "4.0.0",
     "gulp-header": "^1.0.2",
-    "gulp-size": "^0.3.0"
+    "gulp-size": "^2.1.0"
   }
 }
